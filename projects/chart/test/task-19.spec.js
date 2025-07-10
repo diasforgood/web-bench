@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { expect, test } from '@playwright/test'
-import { getOffsetByLocator } from '@web-bench/test-util'
+import { getOffsetByLocator } from './test-util'
 import { data, length, TO } from './util/util'
 
 test.beforeEach(async ({ page }) => {

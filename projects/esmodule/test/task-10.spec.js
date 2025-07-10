@@ -14,7 +14,7 @@
 
 import { test, expect } from '@playwright/test'
 import path from 'path'
-import { isExisted } from '@web-bench/test-util'
+import { isExisted } from './test-util'
 
 const srcPath = path.join(import.meta.dirname, '../src')
 

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { expectTolerance, getOffsetByLocator } = require('@web-bench/test-util')
+const { expectTolerance, getOffsetByLocator } = require('./test-util')
 const { starData, density } = require('./util/util')
 
 test.beforeEach(async ({ page }) => {

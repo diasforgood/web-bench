@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { sleep } = require('@web-bench/test-util')
+const { sleep } = require('./test-util')
 const { getSnakeHead } = require('../test-utils')
 
 test.beforeEach(async ({ page }) => {

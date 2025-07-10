@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { isExisted } = require('@web-bench/test-util')
+const { isExisted } = require('./test-util')
 
 test('edit question title', async ({ page }) => {
   await page.goto('/design.html')

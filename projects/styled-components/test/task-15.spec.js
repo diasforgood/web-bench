@@ -14,7 +14,7 @@
 
 const { test, expect } = require('@playwright/test')
 const { submitBlog } = require('./utils/helpers')
-const { sleep, getComputedStyle, getOffset } = require('@web-bench/test-util')
+const { sleep, getComputedStyle, getOffset } = require('./test-util')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

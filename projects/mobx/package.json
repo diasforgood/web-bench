@@ -1,5 +1,5 @@
 {
-  "name": "@web-bench/mobx",
+  "name": "mobx",
   "version": "0.0.1",
   "eval": {
     "stable": true
@@ -7,7 +7,7 @@
   "scripts": {
     "start": "vite src --port 3005 --config vite.config.ts",
     "build": "cross-env VITE_CJS_IGNORE_WARNING=true vite build",
-    "test": "npx @web-bench/test-util"
+    "test": "npx playwright test"
   },
   "author": "maoyiwei.ebay",
   "dependencies": {
@@ -21,7 +21,6 @@
     "mobx": "~6.13.7"
   },
   "devDependencies": {
-    "@web-bench/test-util": "workspace:*",
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.7.9",
     "typescript": "^5.6.3",

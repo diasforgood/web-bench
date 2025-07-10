@@ -19,7 +19,7 @@ const {
   getBox,
   getMarginBox,
   expectTolerance,
-} = require('@web-bench/test-util')
+} = require('./test-util')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/index.html')

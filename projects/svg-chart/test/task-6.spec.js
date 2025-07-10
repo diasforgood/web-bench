@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { expect, test } from '@playwright/test'
-import { expectTolerance, getComputedStyleByLocator, getOffsetByLocator } from '@web-bench/test-util'
+import { expectTolerance, getComputedStyleByLocator, getOffsetByLocator } from './test-util'
 import { data, getUnionRect } from './util/util'
 
 test.beforeEach(async ({ page }) => {

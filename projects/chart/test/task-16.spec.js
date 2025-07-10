@@ -17,7 +17,7 @@ import {
   expectTolerance,
   getComputedStyleByLocator,
   getOffsetByLocator,
-} from '@web-bench/test-util'
+} from './test-util'
 import { getUnionRect, hasUniqueValues, TO } from './util/util'
 
 test.beforeEach(async ({ page }) => {

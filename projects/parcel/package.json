@@ -1,10 +1,10 @@
 {
-  "name": "@web-bench/parcel",
+  "name": "parcel",
   "version": "0.0.1",
   "scripts": {
     "build": "",
     "init": "cd $EVAL_PROJECT_ROOT && rimraf node_modules && npm i && npm run build",
-    "test": "npx @web-bench/test-util",
+    "test": "npx playwright test",
     "src:test": "cd $(pwd)/src && npm i && rimraf dist && npm run build && cd - && cross-env EVAL_PROJECT_ROOT=$(pwd)/src EVAL_PROJECT_PORT=8080 npx playwright test"
   },
   "author": "fengzilong",
@@ -14,7 +14,6 @@
   "devDependencies": {
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.7.9",
-    "@web-bench/test-util": "workspace:*",
     "execa": "^9.5.2",
     "tinyglobby": "^0.2.11",
     "rimraf": "~6.0.1",

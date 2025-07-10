@@ -20,7 +20,7 @@ import {
   expectTolerance,
   getComputedStyleByLocator,
   expectBetween,
-} from '@web-bench/test-util'
+} from './test-util'
 import {
   configs,
   data,

@@ -17,7 +17,7 @@ const {
   getComputedStyleByLocator,
   getOffsetByLocator,
   expectTolerance,
-} = require('@web-bench/test-util')
+} = require('./test-util')
 const { starData, density } = require('./util/util')
 
 test.beforeEach(async ({ page }) => {

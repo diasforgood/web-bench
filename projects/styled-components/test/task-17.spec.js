@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getComputedStyleByLocator, sleep, parseColorToHex } = require('@web-bench/test-util')
+const { getComputedStyleByLocator, sleep, parseColorToHex } = require('./test-util')
 const { checkFileHasContent } = require('./utils/helpers')
 
 const getAngle = async (locator) => {

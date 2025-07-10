@@ -18,7 +18,7 @@ const {
   parseColorToHex,
   getComputedStyleByLocator,
   sleep,
-} = require('@web-bench/test-util')
+} = require('./test-util')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

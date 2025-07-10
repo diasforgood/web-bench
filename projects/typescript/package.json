@@ -1,10 +1,10 @@
 {
-  "name": "@web-bench/typescript",
+  "name": "typescript",
   "version": "0.0.1",
   "scripts": {
     "start": "vite src --port 3005 --config vite.config.ts",
     "init": "cd $EVAL_PROJECT_ROOT && rimraf tasks",
-    "test": "npx @web-bench/test-util"
+    "test": "npx playwright test"
   },
   "eval": {
     "screenshot": false,
@@ -27,7 +27,6 @@
     "serve": "^14.2.4",
     "fs-extra": "^11.2.0",
     "@types/fs-extra": "^11.0.4",
-    "@web-bench/test-util": "workspace:*",
     "@vitejs/plugin-react": "^4.3.3",
     "vite": "^6.2.2",
     "rimraf": "~6.0.1",

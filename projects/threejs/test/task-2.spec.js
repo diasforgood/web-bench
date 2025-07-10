@@ -17,7 +17,7 @@
  */
 
 const { test, expect } = require('@playwright/test')
-const { getWindowMirror } = require('@web-bench/test-util')
+const { getWindowMirror } = require('./test-util')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

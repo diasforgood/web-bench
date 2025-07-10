@@ -1,12 +1,12 @@
 {
-  "name": "@web-bench/fastify",
+  "name": "fastify",
   "version": "0.0.1",
   "scripts": {
     "start": "node scripts/dev.js",
     "dev": "node scripts/dev.js",
     "build": "",
     "db": "node scripts/init-db.js",
-    "test": "npx @web-bench/test-util"
+    "test": "npx playwright test"
   },
   "author": "maoyiwei.ebay",
   "dependencies": {
@@ -21,8 +21,6 @@
     "ejs": "~3.1.10"
   },
   "devDependencies": {
-    "@web-bench/test-util": "workspace:*",
-    "@web-bench/shop-test-util": "workspace:*",
     "@playwright/test": "^1.49.1",
     "tsx": "~4.19.3",
     "@types/node": "^22.7.9",

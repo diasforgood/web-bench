@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getCmdKey, getOffsetByLocator } = require('@web-bench/test-util')
+const { getCmdKey, getOffsetByLocator } = require('./test-util')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/index.html')

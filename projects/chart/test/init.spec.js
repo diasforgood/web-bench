@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { test, expect } from '@playwright/test'
-import { isExisted, getViewport } from '@web-bench/test-util'
+import { isExisted, getViewport } from './test-util'
 import { configs, data, getUnionRect, hasUniqueValues } from './util/util'
 import path from 'path'
 

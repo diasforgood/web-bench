@@ -17,7 +17,7 @@ const {
   isExisted,
   getOffsetByLocator,
   getComputedStyleByLocator,
-} = require('@web-bench/test-util')
+} = require('./test-util')
 const path = require('path')
 const { interceptNetworkAndAbort, submit } = require('./util')
 

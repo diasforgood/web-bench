@@ -19,7 +19,7 @@ import {
   getOffsetByLocator,
   expectTolerance,
   getComputedStyleByLocator,
-} from '@web-bench/test-util'
+} from './test-util'
 import {
   configs,
   data,

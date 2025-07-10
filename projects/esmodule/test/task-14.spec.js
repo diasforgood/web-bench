@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { expect, test } from '@playwright/test'
-import { isExisted } from '@web-bench/test-util'
+import { isExisted } from './test-util'
 import path from 'path'
 
 const srcPath = path.join(import.meta.dirname, '../src')

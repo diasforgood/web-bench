@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getWindowMirror } = require('@web-bench/test-util')
+const { getWindowMirror } = require('./test-util')
 
 const { getSnakeHead } = require('../test-utils')
 

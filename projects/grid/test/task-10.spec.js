@@ -21,7 +21,7 @@ const {
   expectBetween,
   expectTolerance,
   getMarginBox,
-} = require('@web-bench/test-util')
+} = require('./test-util')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/index.html')

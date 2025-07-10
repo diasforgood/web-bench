@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { isExisted, getOffsetByLocator } = require('@web-bench/test-util')
+const { isExisted, getOffsetByLocator } = require('./test-util')
 const path = require('path')
 
 test.beforeEach(async ({ page }) => {

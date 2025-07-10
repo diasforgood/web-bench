@@ -1,12 +1,12 @@
 {
-  "name": "@web-bench/nextjs",
+  "name": "nextjs",
   "version": "0.0.1",
   "scripts": {
     "start": "node scripts/dev.js",
     "dev": "node scripts/dev.js",
     "build": "",
     "db": "node scripts/init-db.js",
-    "test": "npx @web-bench/test-util"
+    "test": "npx playwright test"
   },
   "author": "maoyiwei.ebay",
   "dependencies": {
@@ -17,8 +17,6 @@
     "jose": "^5.9.6"
   },
   "devDependencies": {
-    "@web-bench/test-util": "workspace:*",
-    "@web-bench/shop-test-util": "workspace:*",
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.7.9",
     "@types/react": "^18.3.12",

@@ -15,7 +15,7 @@
 // @ts-nocheck
 const { test, expect } = require('@playwright/test')
 const { getCmdKey, getCmdKeyText } = require('./util/index')
-const { getViewport, getOffset, getComputedStyle, isExisted } = require('@web-bench/test-util')
+const { getViewport, getOffset, getComputedStyle, isExisted } = require('./test-util')
 const path = require('path')
 
 test.beforeEach(async ({ page }) => {
