@@ -14,7 +14,7 @@
 
 const { test, expect } = require('@playwright/test')
 const { submitBlog } = require('./utils/helpers')
-const { getComputedStyleByLocator, parseColorToHex } = require('./test-util')
+const { getComputedStyleByLocator, parseColorToHex } = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

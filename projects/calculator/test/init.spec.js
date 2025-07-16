@@ -14,7 +14,7 @@
 
 // @ts-check
 const { test, expect } = require('@playwright/test')
-const { getOffset, expectTolerance } = require('./test-util')
+const { getOffset, expectTolerance } = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/index.html')

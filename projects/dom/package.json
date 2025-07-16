@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "scripts": {
     "build": "",
-    "test": "npx playwright test",
-    "test1": "npx playwright test"
+    "test": "cd test && npx playwright test --config ../playwright.config.js",
+    "test1": "npx playwright test",
+    "test:debug": "cd test && npx playwright test --config ../playwright.config.js --debug"
   },
   "author": "luics",
   "eval": {

@@ -17,7 +17,7 @@
  */
 
 const { test, expect } = require('@playwright/test')
-const { getWindowMirror, getDomParams } = require('./test-util')
+const { getWindowMirror, getDomParams } = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

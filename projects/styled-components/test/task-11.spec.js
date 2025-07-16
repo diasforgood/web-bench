@@ -14,7 +14,7 @@
 
 const { test, expect } = require('@playwright/test')
 const { submitBlog } = require('./utils/helpers')
-const { sleep, getOffsetByLocator } = require('./test-util')
+const { sleep, getOffsetByLocator } = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

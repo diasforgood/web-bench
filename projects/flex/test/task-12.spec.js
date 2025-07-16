@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getOffset, getComputedStyle, getMarginBox, expectTolerance } = require('./test-util')
+const { getOffset, getComputedStyle, getMarginBox, expectTolerance } = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/index.html')

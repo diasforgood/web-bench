@@ -5,7 +5,8 @@
     "start": "node scripts/dev.js",
     "dev": "node scripts/dev.js",
     "build": "",
-    "test": "npx playwright test"
+    "test": "cd test && npx playwright test --config ../playwright.config.js",
+    "test:debug": "cd test && npx playwright test --config ../playwright.config.js --debug"
   },
   "author": "maoyiwei.ebay",
   "dependencies": {

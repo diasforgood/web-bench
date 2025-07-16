@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { expect, test } from '@playwright/test'
-import { isExisted } from './test-util'
+import { isExisted } from '../libraries/test-util/src'
 import path from 'path'
 import fs from 'fs'
 

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-const { isExisted, getComputedStyleByLocator, parseColorToHex } = require('@web-bench/test-util')
+const { isExisted, getComputedStyleByLocator, parseColorToHex } = require('../libraries/test-util/src')
 const { expect } = require('@playwright/test')
 const path = require('path')
 const { readFileSync } = require('fs')

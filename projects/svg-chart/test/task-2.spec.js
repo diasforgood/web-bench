@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { test, expect } from '@playwright/test'
-import { isExisted, getViewport } from './test-util'
+import { isExisted, getViewport } from '../libraries/test-util/src'
 import { configs, data } from './util/util'
 
 test.beforeEach(async ({ page }) => {

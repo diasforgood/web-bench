@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { test, expect } from '@playwright/test'
-import { getBoxByLocator, getContentBoxByLocator, getMarginBoxByLocator, isExisted } from './test-util'
+import { getBoxByLocator, getContentBoxByLocator, getMarginBoxByLocator, isExisted } from '../libraries/test-util/src'
 import path from 'node:path'
 
 test.beforeEach(async ({ page }) => {

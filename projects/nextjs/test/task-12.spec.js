@@ -18,7 +18,7 @@ const {
   pageRegisterUser,
   pageGetCurrentUserInfo,
   pageLoginAdmin,
-} = require('@web-bench/shop-test-util')
+} = require('../libraries/shop-test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

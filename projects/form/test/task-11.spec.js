@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { isExisted, getOffsetByLocator } = require('./test-util')
+const { isExisted, getOffsetByLocator } = require('../libraries/test-util/src')
 const path = require('path')
 const { interceptNetworkAndAbort, submit } = require('./util')
 const exp = require('constants')

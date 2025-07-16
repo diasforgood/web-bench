@@ -15,7 +15,7 @@
 // @ts-nocheck
 const { test, expect } = require('@playwright/test')
 const { getEntryName } = require('./util/index')
-const { getViewport, getOffset, getComputedStyle, isExisted } = require('./test-util')
+const { getViewport, getOffset, getComputedStyle, isExisted } = require('../libraries/test-util/src')
 const path = require('path')
 
 test.beforeEach(async ({ page }) => {

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getWindowMirror, sleep } = require('./test-util')
+const { getWindowMirror, sleep } = require('../libraries/test-util/src')
 
 const THREE = require('three')
 

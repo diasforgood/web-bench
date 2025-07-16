@@ -21,7 +21,7 @@ const {
   expectBetween,
   expectTolerance,
   getMarginBox,
-} = require('./test-util')
+} = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/index.html')

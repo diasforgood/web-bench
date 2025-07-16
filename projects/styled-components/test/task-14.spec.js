@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getComputedStyleByLocator, parseColorToHex, sleep } = require('./test-util')
+const { getComputedStyleByLocator, parseColorToHex, sleep } = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

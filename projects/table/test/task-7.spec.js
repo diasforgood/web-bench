@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getCmdKey } = require('./test-util')
+const { getCmdKey } = require('../libraries/test-util/src')
 const path = require('path')
 
 test.beforeEach(async ({ page }) => {

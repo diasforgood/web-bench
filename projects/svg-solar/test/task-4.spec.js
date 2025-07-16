@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { isExisted, expectTolerance, getOffsetByLocator } = require('./test-util')
+const { isExisted, expectTolerance, getOffsetByLocator } = require('../libraries/test-util/src')
 const { starData, density } = require('./util/util')
 
 test.beforeEach(async ({ page }) => {

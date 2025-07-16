@@ -19,7 +19,7 @@ import {
   getOffsetByLocator,
   expectTolerance,
   getComputedStyleByLocator,
-} from './test-util'
+} from '../libraries/test-util/src'
 import {
   configs,
   data,

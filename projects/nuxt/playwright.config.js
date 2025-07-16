@@ -28,7 +28,7 @@ const PORT = process.env.EVAL_PROJECT_PORT || 3211
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  testDir: './test',
+  testDir: '.',
   timeout: 60000,
   expect: {
     // increase timeout to prevent false negatives due to nuxt dev server lazy compilation

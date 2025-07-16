@@ -4,7 +4,8 @@
   "scripts": {
     "start": "vite src --port 3005 --config vite.config.ts",
     "init": "cd $EVAL_PROJECT_ROOT && rimraf tasks",
-    "test": "npx playwright test"
+    "test": "cd test && npx playwright test --config ../playwright.config.js",
+    "test:debug": "cd test && npx playwright test --config ../playwright.config.js --debug"
   },
   "eval": {
     "screenshot": false,

@@ -20,7 +20,7 @@ import {
   placeOrderAndPayForProduct,
   placeOrderForProduct,
   getMockSKU,
-} from '@web-bench/shop-test-util'
+} from 'libraries/shop-test-util/src'
 
 const sku1 = getMockSKU({ name: 'Coffee Machine', price: 1299, quantity: 20 })
 const sku2 = getMockSKU({ name: 'Rice Cooker', price: 149, quantity: 30 })

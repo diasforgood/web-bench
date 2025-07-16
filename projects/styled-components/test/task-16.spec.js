@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getOffsetByLocator, getComputedStyleByLocator } = require('./test-util')
+const { getOffsetByLocator, getComputedStyleByLocator } = require('../libraries/test-util/src')
 const { checkFileHasContent } = require('./utils/helpers')
 
 test.beforeEach(async ({ page }) => {

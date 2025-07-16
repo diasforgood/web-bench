@@ -17,7 +17,7 @@ const {
   isExisted,
   getOffsetByLocator,
   getComputedStyleByLocator,
-} = require('./test-util')
+} = require('../libraries/test-util/src')
 const path = require('path')
 const { interceptNetworkAndAbort, submit } = require('./util')
 

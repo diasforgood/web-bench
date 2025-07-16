@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect, devices } = require('@playwright/test')
-const { getOffsetByLocator } = require('../../../libraries/test-util/src')
+const { getOffsetByLocator } = require('../libraries/test-util/src')
 const { pan } = require('./util/util')
 
 // test.use({ ...devices['iPhone 12'] })

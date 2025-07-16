@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getComputedStyle } = require('./test-util')
+const { getComputedStyle } = require('../libraries/test-util/src')
 const { checkExists } = require('./utils/helpers')
 const path = require('path')
 const fs = require('fs')

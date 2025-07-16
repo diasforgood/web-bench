@@ -4,7 +4,8 @@
   "scripts": {
     "start": "vite --config vite.config.js",
     "build": "cross-env VITE_CJS_IGNORE_WARNING=true vite build",
-    "test": "npx playwright test"
+    "test": "cd test && npx playwright test --config ../playwright.config.js",
+    "test:debug": "cd test && npx playwright test --config ../playwright.config.js --debug"
   },
   "author": "luics",
   "devDependencies": {

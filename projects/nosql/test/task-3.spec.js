@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getMockSKU } = require('@web-bench/shop-test-util')
+const { getMockSKU } = require('../libraries/shop-test-util/src')
 const { checkExists } = require('./utils/helpers')
 
 const sku = getMockSKU()
