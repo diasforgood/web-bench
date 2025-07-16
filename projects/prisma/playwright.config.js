@@ -28,7 +28,7 @@ const PORT = process.env.EVAL_PROJECT_PORT || 3211
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  testDir: './test',
+  testDir: '.',
   // Sqlite database has concurrent issues, so set workers to 3
   timeout: 60000,
   expect: {

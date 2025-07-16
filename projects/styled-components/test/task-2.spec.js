@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getOffset } = require('./test-util')
+const { getOffset } = require('../libraries/test-util/src')
 const { checkExists } = require('./utils/helpers')
 
 test.beforeEach(async ({ page }) => {

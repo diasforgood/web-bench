@@ -18,7 +18,7 @@ const {
   pageRegisterUser,
   placeOrder,
   getMockSKU,
-} = require('@web-bench/shop-test-util')
+} = require('../libraries/shop-test-util/src')
 
 const sku1 = getMockSKU({ price: 699, quantity: 15 })
 const sku2 = getMockSKU({ price: 299, quantity: 20 })

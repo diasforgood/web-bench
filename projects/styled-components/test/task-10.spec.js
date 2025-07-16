@@ -14,7 +14,7 @@
 
 const { test, expect } = require('@playwright/test')
 const { submitBlog } = require('./utils/helpers')
-const { getComputedStyleByLocator, sleep } = require('./test-util')
+const { getComputedStyleByLocator, sleep } = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { expect } = require('@playwright/test')
-const { isExisted } = require('@web-bench/test-util')
+const { isExisted } = require('../libraries/test-util/src')
 const path = require('path')
 
 export const checkExists = (filePath) => {

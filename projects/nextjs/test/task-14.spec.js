@@ -19,7 +19,7 @@ const {
   pageRegisterUser,
   pageLoginNewUser,
   getMockSKU,
-} = require('@web-bench/shop-test-util')
+} = require('../libraries/shop-test-util/src')
 
 const sku1 = getMockSKU()
 const sku2 = getMockSKU()

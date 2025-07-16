@@ -17,7 +17,7 @@
  */
 const TABLE_SIZE = 8
 const { test, expect } = require('@playwright/test')
-const { getWindowMirror, sleep } = require('./test-util')
+const { getWindowMirror, sleep } = require('../libraries/test-util/src')
 const { getSnakeHead } = require('../test-utils')
 
 test.beforeEach(async ({ page }) => {

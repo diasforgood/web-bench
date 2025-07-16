@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getViewport, getOffset } = require('./test-util')
+const { getViewport, getOffset } = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/index.html')

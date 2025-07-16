@@ -4,8 +4,9 @@
   "scripts": {
     "build": "",
     "init": "cd $EVAL_PROJECT_ROOT && rimraf node_modules && npm i && npm run build",
-    "test": "npx playwright test",
-    "src:test": "cd $(pwd)/src && npm i && rimraf dist && npm run build && cd - && cross-env EVAL_PROJECT_ROOT=$(pwd)/src EVAL_PROJECT_PORT=8080 npx playwright test"
+    "test": "cd test && npx playwright test --config ../playwright.config.js",
+    "src:test": "cd $(pwd)/src && npm i && rimraf dist && npm run build && cd - && cross-env EVAL_PROJECT_ROOT=$(pwd)/src EVAL_PROJECT_PORT=8080 npx playwright test",
+    "test:debug": "cd test && npx playwright test --config ../playwright.config.js --debug"
   },
   "author": "fengzilong",
   "eval": {

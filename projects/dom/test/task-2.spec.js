@@ -14,7 +14,7 @@
 
 const path = require('path')
 const { test, expect } = require('@playwright/test')
-const { isExisted } = require('./test-util')
+const { isExisted } = require('../libraries/test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/index.html')

@@ -8,7 +8,8 @@
     "start": "vite src --config vite.config.mts --port 3005",
     "dev": "vite src --config vite.config.mts",
     "build": "cross-env VITE_CJS_IGNORE_WARNING=true vite build",
-    "test": "npx playwright test"
+    "test": "cd test && npx playwright test --config ../playwright.config.js",
+    "test:debug": "cd test && npx playwright test --config ../playwright.config.js --debug"
   },
   "author": "maoyiwei.ebay",
   "dependencies": {

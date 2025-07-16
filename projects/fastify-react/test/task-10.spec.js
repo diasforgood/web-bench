@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { pageLoginUser, pageLoginAdmin } = require('@web-bench/shop-test-util')
+const { pageLoginUser, pageLoginAdmin } = require('../libraries/shop-test-util/src')
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { getViewport, getOffset, getComputedStyle, isExisted } = require('./test-util')
+const { getViewport, getOffset, getComputedStyle, isExisted } = require('../libraries/test-util/src')
 const path = require('path')
 const { getEntryName } = require('./util')
 

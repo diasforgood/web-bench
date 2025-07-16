@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { expect, test } from '@playwright/test'
-import { getOffsetByLocator } from './test-util'
+import { getOffsetByLocator } from '../libraries/test-util/src'
 import { data, getUnionRect, length } from './util/util'
 
 test.beforeEach(async ({ page }) => {

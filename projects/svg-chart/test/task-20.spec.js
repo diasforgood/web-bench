@@ -17,7 +17,7 @@ import {
   expectTolerance,
   getComputedStyleByLocator,
   getOffsetByLocator,
-} from './test-util'
+} from '../libraries/test-util/src'
 import { data, doRectanglesIntersect, getUnionRect } from './util/util'
 
 test.beforeEach(async ({ page }) => {

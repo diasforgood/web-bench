@@ -17,7 +17,7 @@ const {
   getOffsetByLocator,
   expectTolerance,
   getComputedStyleByLocator,
-} = require('./test-util')
+} = require('../libraries/test-util/src')
 const { starData, density } = require('./util/util')
 
 test.beforeEach(async ({ page }) => {

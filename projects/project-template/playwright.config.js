@@ -27,7 +27,7 @@ const PORT = process.env.EVAL_PROJECT_PORT || 3211
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  testDir: './test',
+  testDir: '.',
 
   /* Run tests in files in parallel */
   fullyParallel: true,

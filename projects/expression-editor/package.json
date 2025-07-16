@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "scripts": {
     "build": "",
-    "test": "npx playwright test",
-    "src:test": "cross-env EVAL_PROJECT_ROOT=$(pwd)/src npx playwright test"
+    "test": "cd test && npx playwright test --config ../playwright.config.js",
+    "src:test": "cross-env EVAL_PROJECT_ROOT=$(pwd)/src npx playwright test",
+    "test:debug": "cd test && npx playwright test --config ../playwright.config.js --debug"
   },
   "author": "fengzilong",
   "eval": {

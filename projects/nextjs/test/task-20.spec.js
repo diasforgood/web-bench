@@ -22,7 +22,7 @@ const {
   logoutCurrentUser,
   placeOrderAndPayForProduct,
   getMockSKU,
-} = require('@web-bench/shop-test-util')
+} = require('../libraries/shop-test-util/src')
 
 const sku1 = getMockSKU({
   price: 199.99,

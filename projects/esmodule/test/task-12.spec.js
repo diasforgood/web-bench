@@ -14,7 +14,7 @@
 
 import { test, expect } from '@playwright/test'
 import path from 'path'
-import { isExisted } from './test-util'
+import { isExisted } from '../libraries/test-util/src'
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/index.html')

@@ -13,7 +13,7 @@
 // limitations under the License.
 
 const { test, expect } = require('@playwright/test')
-const { isExisted } = require('./test-util')
+const { isExisted } = require('../libraries/test-util/src')
 const path = require('path')
 const { interceptNetworkAndAbort, submit } = require('./util')
 

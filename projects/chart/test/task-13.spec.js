@@ -20,7 +20,7 @@ import {
   expectTolerance,
   getComputedStyleByLocator,
   expectBetween,
-} from './test-util'
+} from '../libraries/test-util/src'
 import {
   configs,
   data,

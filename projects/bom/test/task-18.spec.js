@@ -13,7 +13,7 @@
 // limitations under the License.
 
 import { test, devices, expect } from '@playwright/test'
-import { getContentBoxByLocator, getMarginBoxByLocator } from './test-util'
+import { getContentBoxByLocator, getMarginBoxByLocator } from '../libraries/test-util/src'
 
 // test.beforeEach(async ({ page }) => {
 //   await page.goto('/index.html')

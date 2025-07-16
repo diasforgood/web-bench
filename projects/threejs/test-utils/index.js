@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-const { getWindowMirror } = require('@web-bench/test-util')
+const { getWindowMirror } = require('../libraries/test-util/src')
 
 /**
  * Used to calculate whether spatial coordinates can form a line

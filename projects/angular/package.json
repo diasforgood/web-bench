@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "node ./scripts/dev.js",
     "build": "node ./scripts/build.js",
-    "test": "npx playwright test"
+    "test": "cd test && npx playwright test --config ../playwright.config.js",
+    "test:debug": "cd test && npx playwright test --config ../playwright.config.js --debug"
   },
   "eval": {
     "stable": true

@@ -20,7 +20,7 @@ const {
   placeOrderAndPayForProduct,
   placeOrderForProduct,
   getMockSKU,
-} = require('@web-bench/shop-test-util')
+} = require('../libraries/shop-test-util/src')
 
 const sku1 = getMockSKU({ name: 'Electric Kettle', price: 39.99, quantity: 40 })
 const sku2 = getMockSKU({ name: 'Hello SKU', price: 49.99, quantity: 15 })
